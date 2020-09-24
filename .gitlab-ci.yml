@@ -1,0 +1,5 @@
+job:
+  script:
+  - git checkout master
+  - git pull origin master
+  - git push $GITHUB_REPOSITORY master:develop
